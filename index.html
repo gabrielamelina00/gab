@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/index.css" /> -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Squada+One:&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:&display=swap" rel="stylesheet">
+
+<style type="text/css">
+
+	
+
+	* {
+        padding: 0;
+        margin: 0;
+}
+ 
+body {
+    margin: 0;
+}
+
+#head {
+
+	/*position: fixed;*/
+width: 100vw;
+height: 200px;
+left: 0px;
+top: -82px;
+
+background: linear-gradient(180deg, #7FC9FD 21.43%, rgba(255, 255, 255, 0) 100%), #6AD8D8;
+/*border-radius: 52px; */
+border-bottom-left-radius:52px;
+border-bottom-right-radius:52px;
+}
+
+#footer {
+	position: fixed;
+width: 100vw;
+height: 20%;
+margin-right: auto;
+margin-left: auto;
+top: 90%;
+
+background: #6AD8D8;
+box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#tempat {
+    position: relative;
+    width: calc(50px + 50px + 50px + 50px + 20px + 20px + 20px + 20px + 20px);
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: transparent;
+}
+
+
+#icon1 {
+
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: gray;
+    float: left;
+    margin-top: 4%;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    background-image: url(assets/image/home.png);
+}
+
+#icon2 {
+
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: gray;
+    float: left;
+    margin-top: 4%;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    background-image: url(assets/image/payment.png);
+}
+
+#icon3 {
+
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: gray;
+    float: left;
+    margin-top: 4%;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    background-image: url(assets/image/assign.png);
+}
+
+#icon4 {
+
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: gray;
+    float: left;
+    margin-top: 4%;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    background-image: url(assets/image/acc.png);
+}
+
+
+ #content {
+
+    top: -200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    z-index:100;
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+	
+   
+<div id="content"></div>
+
+	<div id="footer">
+		<div id="tempat">
+			<div id="icon1" onclick="getIt('1')"></div>
+			<div id="icon3" onclick="getIt('3')"></div>
+			<div id="icon4" onclick="getIt('4')"></div>
+		</div>
+	</div>
+
+	</body>
+</html>
+
+<script type="text/javascript">
+function getIt(x, y) {
+	//alert('test');
+	if (window.XMLHttpRequest) {
+	   xmlhttp = new XMLHttpRequest();
+	 } else {
+	   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+	 }
+
+	xmlhttp.open('POST', 'yeet.php', true);
+	xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+	xmlhttp.onreadystatechange = function() {
+		if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			
+			var result = xmlhttp.responseText;
+			// alert(result);
+			document.querySelector('#content').innerHTML = result;
+		}
+	}
+	
+	xmlhttp.send('x=' + x + '&y=' + y);
+}
+
+function kalobaru() {
+	//alert('test');
+	if (window.XMLHttpRequest) {
+	   xmlhttp = new XMLHttpRequest();
+	 } else {
+	   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+	 }
+
+	xmlhttp.open('POST', 'haha.php', true);
+	xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+	xmlhttp.onreadystatechange = function() {
+		if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			
+			var result = xmlhttp.responseText;
+			// alert(result);
+			document.querySelector('#content').innerHTML = result;
+		}
+	}
+	
+	xmlhttp.send();
+}
+
+window.onload = kalobaru();
+</script>
+

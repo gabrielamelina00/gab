@@ -1,0 +1,172 @@
+* {
+        padding: 0;
+        margin: 0;
+}
+
+#bg {
+        position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #7DC8FE 0%, rgba(255, 255, 255, 0) 100%), #6AD8D8;
+}
+
+#title {
+	position: relative;
+width: 208px;
+height: 94px;
+margin-right: auto;
+margin-left: auto;
+top: 10%;
+background-color: transparent;
+display: block;
+
+}
+
+#title h1{
+
+
+     font-family: Squada One;
+    font-weight: 600;
+    font-size: 96px;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+#card {
+
+    position: relative;
+    width: 80%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23%;
+    background: #FFFFFF;
+    border-radius: 19px;
+}
+
+#card h1{
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: left;
+	margin-top: 20%;
+	margin-left: 10%;
+	color: #47ABAB;
+	position: relative;
+}
+
+input[type=text] {
+      width: 78%;
+    height: 20px;
+   
+    border-bottom: 2px;
+    margin-left: 10%;
+    position: relative;
+    border-color: black;
+    margin-top: 2%;
+  }
+
+  input[type=password] {
+      width: 78%;
+    height: 20px;
+   
+    border-bottom: 2px;
+    margin-left: 10%;
+    position: relative;
+    border-color: black;
+    margin-top: 2%;
+  }
+
+#login {
+	position: relative;
+width: 208px;
+height: 24px;
+margin-right: auto;
+margin-left: auto;
+top: 6%;
+background-color: transparent;
+display: block;
+
+}
+
+#login p{
+
+     font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #47ABAB;
+    position: relative;
+
+
+}
+
+#bottom {
+	position: relative;
+width: 185px;
+height: 79px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 10%;
+
+background: transparent;
+}
+
+#bottom p {
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    position: relative;
+        top: 10%;
+   
+
+}
+
+#in {
+	position: relative;
+width: 175px;
+height: 55px;
+margin-left: auto;
+margin-right: auto;
+top: 2%;
+
+background: #6AD8D8;
+border-radius: 23px;
+}
+
+#in h1{
+
+       font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    position: relative;
+    right: 4%;
+    top: 30%;
+
+}
+
+#warning {
+    position: fixed;
+    top: 240px;
+    left: 25%;
+    width: 50%;
+    height: 70px;
+    background-color: pink;
+    display: none;
+}
+
+
+
+

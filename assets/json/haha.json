@@ -1,0 +1,250 @@
+{
+    "dat": [
+		        {
+		            "date": "22 June 2020 - 24 June 2020",
+		            "name": "Bandung",
+		            "gambar": "bandung.jpg"
+		        },
+		         {
+		            "date": "26 August 2020 - 28 August 2020",
+		            "name": "Yogyakarta",
+		            "gambar": "jogja.jpg"
+		        },
+		         {
+		            "date": "11 June 2021 - 13 June 2021",
+		            "name": "Surabaya",
+		            "gambar": "surabaya.jpg"
+		        }
+   		 	],
+   
+    "Bandung": [
+        {
+            "day": "22 June 2020",
+            "acts": [
+		                {
+		                "activity": "Check your attendance with your homeroom teacher ",
+		                "desc": "Teacher can be found in your homeroom class. After that, go to the bus with your homeroom teacher and your classmate",
+		                "datetime": "that",
+		                "from": "6.30",
+		                "to": "8.00",
+                        "assign": "1. Bla bla bla bla",
+                        "adesc" : "bingbongbingbong"
+		                },
+		                {
+		                "activity": "sleep again",
+		                "desc": "bla",
+		                "datetime": "that",
+		                "from": "6.30",
+		                "to": "8.00",
+                        "assign": "bla bla bla bla",
+                        "adesc" : "bingbongbingbong"
+
+		                },
+		                {
+		                "activity": "sleep again",
+		                "desc": "bla",
+		                "datetime": "that",
+		                "from": "6.30",
+		                "to": "8.00"
+		                },
+		                {
+		                "activity": "sleep again",
+		                "desc": "bla",
+		                "datetime": "that",
+		                "from": "6.30",
+		                "to": "8.00"
+		                }
+           			 ]
+        },
+        {
+            "day": "23 June 2020",
+            "acts": [
+		                {
+		                "activity": "wake up",
+		                "desc": "bla",
+		                "datetime": "that",
+		                "from": "6.30",
+		                "to": "8.00"
+		                },
+		                {
+		                "activity": "sleep again",
+		                "desc": "bla",
+		                "datetime": "that",
+		                "from": "6.30",
+		                "to": "8.00"
+		                }
+            		]
+        },
+        {
+            "day": "24 June 2020",
+            "acts": [
+		                {
+		                "activity": "wake up",
+		                "desc": "bla",
+		                "datetime": "that",
+		                "from": "6.30",
+		                "to": "8.00"
+		                },
+		                {
+		                "activity": "sleep again",
+		                "desc": "bla",
+		                "datetime": "that",
+		                "from": "6.30",
+		                "to": "8.00"
+		                }
+            		]
+        }
+
+    ],
+    "Yogyakarta": [
+        {
+            "day": "22 June 2020",
+            "acts": [
+                {
+                "activity": "Check your attendance with your homeroom teacher ",
+                "desc": "Teacher can be found in your homeroom class. After that, go to the bus with your homeroom teacher and your classmate",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                }
+            ]
+        },
+        {
+            "day": "23 June 2020",
+            "acts": [
+                {
+                "activity": "wake up",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                }
+            ]
+        },
+        {
+            "day": "24 June 2020",
+            "acts": [
+                {
+                "activity": "wake up",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                }
+            ]
+        }
+
+    ],
+    "Surabaya": [
+        {
+            "day": "22 June 2020",
+            "acts": [
+                {
+                "activity": "Check your attendance with your homeroom teacher ",
+                "desc": "Teacher can be found in your homeroom class. After that, go to the bus with your homeroom teacher and your classmate",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                }
+            ]
+        },
+        {
+            "day": "23 June 2020",
+            "acts": [
+                {
+                "activity": "wake up",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                }
+            ]
+        },
+        {
+            "day": "24 June 2020",
+            "acts": [
+                {
+                "activity": "wake up",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                },
+                {
+                "activity": "sleep again",
+                "desc": "bla",
+                "datetime": "that",
+                "from": "6.30",
+                "to": "8.00"
+                }
+            ]
+        }
+
+    ]
+
+}
