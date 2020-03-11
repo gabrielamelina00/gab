@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanIt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="assets/css/login.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Squada+One:&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="bg">
+		<div id="title">
+			<h1>Planit</h1>
+		</div>
+
+		<div id="card">
+			<div id="login">
+				<p>LOGIN</p>
+			</div>
+
+		<h1>E-mail</h1>
+			<input type="text" name="uname" id="email">
+
+		<h1>Password</h1>
+			<input type="password" name="uname" id="password">
+
+
+			<div id="bottom">
+				<div id="in">
+					<h1 onclick="location.replace('index.html')">LOGIN</h1>
+				</div>
+				<p>or <u onclick="location.replace('signup.html')">Sign Up here</u></p>
+			</div>
+
+	</div>
+
+ <!--warning-->
+	<div id="warning" style="display: none;">
+      <p>*wrong E-mail or password*</p>
+      <button type="button" onclick="document.getElementById('warning').style.display = 'none'">
+        close
+      </button>
+    </div> 
+    <!--warning-->
+
+
+
+
+
+</body>
+
+
+
+
+<script type="text/javascript">
+    function hehe() {
+      var x = document.getElementById('email').value;
+      var y = document.getElementById('password').value;
+      if (x !== '' && y !== '') {
+         window.location.replace('index.html');
+      } else {
+       document.getElementById('warning').style.display = 'block';
+      }
+     
+    }
+  
+</script>
+
+
+
+
+
+
+
+

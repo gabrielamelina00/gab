@@ -1,0 +1,303 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<style>
+* {
+        padding: 0;
+        margin: 0;
+}
+    #contain {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+    z-index: 0;
+    top: 25%;
+            }
+
+    #tl {
+
+ position: absolute;
+    width: 414px;
+    height: 589px;
+    left: 0px;
+    top: 5%;
+    background: #FFFFFF;
+    z-index: 3;
+    position: absolute;
+    width: 100vw;
+    height: 64%;
+    left: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    z-index: 0;
+    overflow-y: scroll;
+    padding-top: 24px;
+        }
+
+     .t {
+        position: relative;
+    width: 90%;
+    height: 17%;
+    margin-bottom: 20px;
+    background: transparent;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+        }
+
+      .gr {
+    position: relative;
+    display: block;
+    background-color: #6AD8D8;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  top: 50%;
+
+            }
+
+.gr p{
+    font-family: Source Sans Pro;
+    
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 5%;
+    top: 20%;
+    color: white;
+    position: relative;
+}
+
+.gr h1{
+
+    font-family: Source Sans Pro;
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 5%;
+    color: white;
+    position: relative;
+}
+
+h2 {
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 50px;
+    color: black;
+    position: relative;
+}
+
+#head {
+
+ position: absolute;
+    width: 100vw;
+    height: 200px;
+    left: 0px;
+    top: -3px;
+    background: linear-gradient(180deg, #7FC9FD 21.43%, rgba(255, 255, 255, 0) 100%), #6AD8D8;
+    /* border-radius: 52px; */
+    border-bottom-left-radius: 52px;
+    border-bottom-right-radius: 52px;
+    z-index: 999;
+}
+
+#head h1 {
+    font-family: Source Sans Pro;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    position: relative;
+    margin-left: 10%;
+    top: -10px;
+
+
+}
+
+#head h2 {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    position: relative;
+    margin-left: 10%;
+    
+
+
+}
+
+#head h3 {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    position: relative;
+    margin-left: 10%;
+    top: -28px;
+    
+
+
+}
+
+.t h1 {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    position: relative;
+    margin-left: 5%;
+    top: 10%;
+}
+
+input[type=text] {
+         background-color: #F1F1F1;
+    width: 78%;
+    height: 20px;
+    border: black;
+    border-bottom: black;
+    border-bottom-width: thick;
+    /* border-bottom: black; */
+    margin-left: 11%;
+    margin-top: 5%;
+    position: relative;
+  }
+
+  input[type=password] {
+       background-color: #F1F1F1;
+    width: 78%;
+    height: 20px;
+    border: black;
+    border-bottom: black;
+    border-bottom-width: thick;
+    /* border-bottom: black; */
+    margin-left: 11%;
+    margin-top: 5%;
+    position: relative;
+  }
+
+  input[type=email] {
+       background-color: #F1F1F1;
+    width: 78%;
+    height: 20px;
+    border: black;
+    border-bottom: black;
+    border-bottom-width: thick;
+    /* border-bottom: black; */
+    margin-left: 11%;
+    margin-top: 5%;
+    position: relative;
+  }
+
+   input[type=number] {
+       background-color: #F1F1F1;
+    width: 78%;
+    height: 20px;
+    border: black;
+    border-bottom: black;
+    border-bottom-width: thick;
+    /* border-bottom: black; */
+    margin-left: 11%;
+    margin-top: 5%;
+    position: relative;
+  }
+
+  #sign {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    display: block;
+    background: #6AD8D8;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #sign h5 {
+        font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 47px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 0;
+
+}
+
+</style>
+</head>
+
+<body>
+
+
+
+
+<div id="head">
+    <h2>Sign up</h2><br>
+    <h1>New Account</h1><br>
+    <h3>Already have an account? <u onclick="location.replace('login.html')">Login here</u></h3>
+</div>
+
+<div id="contain">
+
+         
+
+                <div id="tl">
+               
+                        <div class="t" > 
+                            <h1>First name</h1>
+                             <input type="text" name="uname" id="first"> 
+                        </div>
+                        <div class="t" > 
+                             <h1>Last name</h1>
+                             <input type="text" name="uname" id="last"> 
+                        </div>
+                        <div class="t" > 
+                                 <h1>E-mail</h1>
+                             <input type="email" name="uname" id="email"> 
+                        </div>
+                        <div class="t" > 
+                             <h1>School</h1>
+                             <input type="text" name="uname" id="email"> 
+                        </div>
+                        <div class="t" > 
+                             <h1>Batch</h1>
+                             <input type="number" name="uname" id="email"> 
+                        </div>
+                        <div class="t" > 
+                             <h1>Password</h1>
+                             <input type="Password" name="uname" id="email"> 
+                        </div>
+                        <div class="t" > 
+                             <h1> Re-enter Password</h1>
+                             <input type="Password" name="uname" id="email"> 
+                        </div>
+
+                    <div id="sign">
+                        <h5 onclick="location.replace('index.html')">Sign Up</h5>
+                    </div>
+                   
+
+                </div>
+ </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
